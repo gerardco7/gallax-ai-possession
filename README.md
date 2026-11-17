@@ -63,9 +63,9 @@ The first run aligns the broadcast to the tactical video (about 25 minutes on on
 result to `data/derived/`. After that, a run takes about a minute. `--expect` fails unless the output is
 byte-identical to the submitted file.
 
-> `possession/temporal.py` is committed with CRLF line endings on purpose, and `.gitattributes` keeps
-> git from converting it. Each checkpoint records the SHA-256 of that exact file and refuses to load
-> against any other bytes. Do not re-save it with LF endings.
+> `possession/temporal.py`, `periods.py` and `explore.py` are committed with CRLF line endings on
+> purpose, and `.gitattributes` keeps git from converting them. Each checkpoint records the SHA-256 of
+> those exact files and refuses to load against any other bytes. Do not re-save them with LF endings.
 
 ## Retrain from scratch
 

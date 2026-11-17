@@ -225,7 +225,8 @@ the first time. It then runs the four touch detectors, loads the 20 networks, de
 `Gallax_AI.csv` through the validated exporter and prints its SHA-256. We ran exactly this from a
 fresh clone, with nothing derived from the data left over, and got the submitted file byte for byte.
 
-`possession/temporal.py` is committed with CRLF line endings and marked `-text` in `.gitattributes`.
+`possession/temporal.py`, `periods.py` and `explore.py` are committed with CRLF line endings and
+marked `-text` in `.gitattributes`.
 Each checkpoint records the SHA-256 of the exact source it was trained with and refuses to load
 against any other bytes.
 
