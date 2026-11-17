@@ -1,0 +1,6 @@
+* text=auto eol=lf
+# The trained networks record the SHA-256 of this file's exact bytes (CRLF line endings) and refuse
+# to load against any other version. Never let git normalise it.
+possession/temporal.py -text
+*.pt binary
+*.npz binary

@@ -1,0 +1,21 @@
+{
+  "channels": 64,
+  "layers": 6,
+  "kernel": 3,
+  "dropout": 0.2,
+  "lr": 0.00043510121634145513,
+  "schedule": "constant",
+  "weight_decay": 0.0001,
+  "crop": 3000,
+  "batch": 32,
+  "ball_drop": 0.2,
+  "noise": 0.05,
+  "trans_weight": 4.0,
+  "arch": "tcn",
+  "lstm_hidden": 64,
+  "lstm_layers": 2,
+  "tf_dim": 64,
+  "tf_heads": 4,
+  "tf_layers": 4,
+  "tf_window": 1500
+}

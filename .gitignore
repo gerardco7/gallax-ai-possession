@@ -1,0 +1,15 @@
+# The match data is licensed for the competition only and is never committed.
+data/*
+!data/README.md
+# Trained weights are published as a release asset, not in git.
+models/
+# External training data (PFF World Cup 2022, SkillCorner open data, ...) and its caches.
+external/
+# Generated submissions.
+evaluation/results/*.csv
+/Gallax_AI.csv
+*.mp4
+__pycache__/
+*.py[cod]
+.venv/
+.ipynb_checkpoints/
